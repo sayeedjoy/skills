@@ -1,0 +1,23 @@
+{
+  "skill_name": "m3-expressive-android",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I'm starting a new habit tracker app in Kotlin + Compose (empty Android Studio project, package com.joy.habits). Set up the theme and build the settings screen: theme mode, week start day, daily reminder toggle, reminder time, language, about/version. Make it look like a modern Pixel app.",
+      "expected_output": "Theme.kt with dynamic color, rounded variable font on all styles, MaterialExpressiveTheme + MotionScheme.expressive(); a SettingsScreen with LargeTopAppBar, section headers in primary, SegmentedListItem groups with colored 48dp icon badges, three-way theme picker, switch with check/close thumb, option dialog, width capped at 700dp, strings in resources.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "add a bottom sheet to my water intake app where users can add a new drink: name, amount in ml, a cup icon + color picker, and the time. compose, material 3 expressive pls",
+      "expected_output": "ModalBottomSheet on surfaceContainerLow with 28dp top corners, bold title, 80dp avatar with edit badge, OutlinedTextFields, a value tile for time opening a TimePicker dialog, amount presets as a connected button group, Cancel/Save 50dp morphing pill buttons split 1:1, ime + nav bar insets, name validation via isError.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Build the main screen for a medication-free 'daily tasks' app: weekly date strip at the top, list of today's tasks that can be checked off, FAB to add a task or a quick preset, swipe to delete with undo, and it needs to work on tablets too. Jetpack Compose.",
+      "expected_output": "Home header with app name displaySmall Bold and tonal icon buttons, weekly day selector with squishing tiles, grouped task cards (20/4dp corners, 2dp gaps, animateItem), check-off with Material shape celebration, FloatingActionButtonMenu with ToggleFloatingActionButton, delete + undo snackbar in inverse colors, ShortNavigationBar on compact and WideNavigationRail + adaptive grid on expanded, empty state, LoadingIndicator pull-to-refresh.",
+      "files": []
+    }
+  ]
+}
