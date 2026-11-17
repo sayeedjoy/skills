@@ -1,0 +1,5 @@
+interface:
+  display_name: "Think Like Zerox"
+  short_description: "Grill ideas, specify, plan, test, and review"
+policy:
+  allow_implicit_invocation: true
